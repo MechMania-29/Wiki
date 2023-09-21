@@ -84,8 +84,7 @@ Zombie Attack Range uses Chebyshev distance, while Speed uses Manhattan.
 
 | Class | Move Speed | Attack Range | Description | |
 |------|------|------|------|------|
-|Zombie|5|1| Braaainsss...|![mm29zombie](https://github.com/MechMania-29/Wiki/assets/60795673/db7810b5-e7c0-414f-873a-af7ee85af87a)
- |
+|Zombie|5|1| Braaainsss...|![mm29zombie](https://github.com/MechMania-29/Wiki/assets/60795673/db7810b5-e7c0-414f-873a-af7ee85af87a)|
 
 
 # Obstacles
