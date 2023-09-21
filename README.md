@@ -16,7 +16,7 @@ Please be advised: There has been a large spike in recorded cases recently, repo
     - [Humans](#humans)
     - [Zombies](#zombies)
 - [Obstacles](#obstacles)
-- 
+- [Further Questions](#further-questions)
 
 # Overview and Objectives
 Infection is a 1v1 Apocalyptic survival game where you hunt or be hunted. One player will control all the humans, trying to evade the zombies and survive for as long as possible. The other will control all the zombies, pursuing, attacking, and infecting the remaining humans. Stay alert, the horde cannot be stopped.
