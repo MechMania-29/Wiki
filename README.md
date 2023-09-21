@@ -1,3 +1,11 @@
+<div align="center">
+
+<a href="https://mechmania.org"><img width="25%" src="https://github.com/MechMania-29/Website/blob/main/images/mm29_logo.png" alt="MechMania 29"></a>
+
+### [website](https://mechmania.org) | [python-starterpack](https://github.com/MechMania-29/python-starterpack) | [java-starterpack](https://github.com/MechMania-29/java-starterpack) | [visualizer](https://github.com/MechMania-29/Visualizer) | [engine](https://github.com/MechMania-29/engine) | wiki
+
+</div>
+
 # Infection Wiki
 Please be advised: There has been a large spike in recorded cases recently, reports indicate that the virus has mutated into something new and highly dangerous. Infected people are becoming zombies! Even more, the government has declared a state of emergency, and a quarantine zone has been established with us in it! If we survive long enough, we might find a way to escape.
 
@@ -8,6 +16,7 @@ Please be advised: There has been a large spike in recorded cases recently, repo
     - [Humans](#humans)
     - [Zombies](#zombies)
 - [Obstacles](#obstacles)
+- 
 
 # Overview and Objectives
 Infection is a 1v1 Apocalyptic survival game where you hunt or be hunted. One player will control all the humans, trying to evade the zombies and survive for as long as possible. The other will control all the zombies, pursuing, attacking, and infecting the remaining humans. Stay alert, the horde cannot be stopped.
@@ -97,8 +106,5 @@ Throughout the landscape there will be different types of obstacles that cannot 
 |Tree|2|Y|A nice oak tree, don’t punch it.|![mm29tree](https://github.com/MechMania-29/Wiki/assets/60795673/b49ed5ea-ff1b-4021-a947-281a3c6c0195)|
 |Water|Infinity|N| Zombie Piranhas. | ![mm29river](https://github.com/MechMania-29/Wiki/assets/60795673/fe0cc3e8-838c-4b87-95e2-049ef69499a5)|
 
-
-
-
-
-
+# Further questions
+If you need something clarified, don't hesitate to ask! You can contact staff in the [MechMania 29 Discord Server](https://discord.gg/Fz2zEM4nGf) through the #ask-a-question-here channel. We'll be providing help throughout the commpetition!
