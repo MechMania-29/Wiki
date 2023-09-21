@@ -6,10 +6,10 @@
 
 </div>
 
----
-
 # Infection Wiki
 Please be advised: There has been a large spike in recorded cases recently, reports indicate that the virus has mutated into something new and highly dangerous. Infected people are becoming zombies! Even more, the government has declared a state of emergency, and a quarantine zone has been established with us in it! If we survive long enough, we might find a way to escape.
+
+---
 
 ## Contents
 - [Overview and Objectives](#overview-and-objectives)
