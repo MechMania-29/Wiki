@@ -28,13 +28,13 @@ Zombies will have their turn first, then humans second. A single turn is made up
 #### 1. Movement
 - Choose a location within range to move to immediately. If the location cannot be reached, the zombie will not move.
 #### 2. Attack
-- Choose any human or obstacle within range to attack, decreasing health or durability by 1 respectively.
+- Choose any human or obstacle within range to attack, decreasing health or durability by **1** respectively.
 
 ### Human phases:
 #### 1. Movement
 - Choose a location within range to move to immediately. If the location cannot be reached, the human will not move.
 #### 2. Attack
-- Choose any zombie or obstacle within range to attack, stunning it or decreasing durability by 1 respectively.
+- Choose any zombie or obstacle within range to attack, stunning it or decreasing durability by **1** respectively.
 #### 3. Ability
 - Use any available ability the human possesses.
 
@@ -52,7 +52,7 @@ Humans can attack either an obstacle or a single zombie. Attacking an obstacle r
 - Health: How many hits a human can take before falling, **max 10 health**
 - Speed: The distance a human can travel in a single turn
 - Range: The distance a human can attack, Some obstacles can block the attack, however
-- Attack Cooldown: The number of turns a human must wait before they can attack again. This includes zombie turns.
+- Cooldown: The number of turns a human must wait before they can attack again. This includes zombie turns.
 - Passive Ability: Abilities that automatically occur
 - Active Ability: Abilities that are actively used in the ability phase
   
@@ -61,12 +61,12 @@ All human distances are calculated with Manhattan Distance
 
 |  Class  | Health | Move Speed |Attack Range|Attack cooldown|Passive ability|Active Abilty|Description| |
 |--------|--------|--------|-------|-------|-------|-------|-------|-------|
-|Normal|1|3|4|6|None|None|Description here| |
-|Marksman|1|3|6|6|None|None|Description here| |
-|Traceur|1|4|2|4|Can move on top of barricades|None|Description here| |
-|Medic|2|3|3|6|None|Give another human within attack range +1 health. Cooldown 6 turns|D| |
-|Builder|1|3|4|6|None|Place a barricade within attack range, cannot place on top of a human or zombie. Cooldown 6 turns|d| |
-|Demolitionist|1|3|2|6|Attacks on obstacles will destroy it (except rivers, too many piranhas)|None|D| |
+|Normal|1|3|4|6|None|None|Talents truly shine when the world calls for it.| |
+|Marksman|1|3|6|6|None|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.| |
+|Traceur|1|4|2|4|Can move on top of barricades|None|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| |
+|Medic|2|3|3|6|None|Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| |
+|Builder|1|3|4|6|None|Place a barricade within attack range, cannot place on top of a human or zombie. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.| |
+|Demolitionist|1|3|2|6|Attacks on obstacles will destroy it (except rivers, too many piranhas)|None|A good demolitionist is one that’s still here.| |
 
 
 ## Zombies
