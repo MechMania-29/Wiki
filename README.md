@@ -2,9 +2,14 @@
 Please be advised: There has been a large spike in recorded cases recently, reports indicate that the virus has mutated into something new and highly dangerous. Infected people are becoming zombies! Even more, the government has declared a state of emergency, and a quarantine zone has been established with us in it! If we survive long enough, we might find a way to escape.
 
 ## Contents
+- [Overview and Objectives](#overview-and-objectives)
+- [Humans and Zombies](#humans-and-zombies)
+    - [Turn Order](#turn-order)
+    - [Humans](#humans)
+    - [Zombies](#zombies)
+- [Obstacles](#obstacles)
 
-
-# Overview and Objective
+# Overview and Objectives
 Infection is a 1v1 Apocalyptic survival game where you hunt or be hunted. One player will control all the humans, trying to evade the zombies and survive for as long as possible. The other will control all the zombies, pursuing, attacking, and infecting the remaining humans. Stay alert, the horde cannot be stopped.
 
 ## Map
@@ -61,12 +66,12 @@ All human distances are calculated with Manhattan Distance
 
 |  Class  | Health | Move Speed |Attack Range|Attack cooldown|Passive ability|Active Abilty|Description| |
 |--------|--------|--------|-------|-------|-------|-------|-------|-------|
-|Normal|1|3|4|6|None|None|Talents truly shine when the world calls for it.| |
-|Marksman|1|3|6|6|None|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.| |
-|Traceur|1|4|2|4|Can move on top of barricades|None|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| |
-|Medic|2|3|3|6|None|Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| |
-|Builder|1|3|4|6|None|Place a barricade within attack range, cannot place on top of a human or zombie. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.| |
-|Demolitionist|1|3|2|6|Attacks on obstacles will destroy it (except rivers, too many piranhas)|None|A good demolitionist is one that’s still here.| |
+|Normal|1|3|4|6|None|None|Talents truly shine when the world calls for it.|![mm29human](https://github.com/MechMania-29/Wiki/assets/60795673/2bf9a84c-38be-4ca5-9ac7-f68485fd068a)|
+|Marksman|1|3|6|6|None|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.|![mm29marksman](https://github.com/MechMania-29/Wiki/assets/60795673/1aaa389e-5ab7-47cb-9bcd-0bcaa2e3bd00)|
+|Traceur|1|4|2|4|Can move on top of barricades|None|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| ![mm29traceur](https://github.com/MechMania-29/Wiki/assets/60795673/fbb8cb64-04bd-402b-a9e8-fb0b5f1958ba)|
+|Medic|2|3|3|6|None|Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| ![mm29medic](https://github.com/MechMania-29/Wiki/assets/60795673/cde8ce26-8810-44cb-9738-54c559d077c4)|
+|Builder|1|3|4|6|None|Place a barricade within attack range, cannot place on top of a human or zombie. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.|![mm29builder](https://github.com/MechMania-29/Wiki/assets/60795673/41e937f3-9ccf-45b5-9b8d-19a5b6fba767)|
+|Demolitionist|1|3|2|6|Attacks on obstacles will destroy it (except rivers, too many piranhas)|None|A good demolitionist is one that’s still here.| ![mm29demo](https://github.com/MechMania-29/Wiki/assets/60795673/ec3a633b-3d0c-4d10-af93-d0b84fa2d2d7)|
 
 
 ## Zombies
@@ -79,7 +84,8 @@ Zombie Attack Range uses Chebyshev distance, while Speed uses Manhattan.
 
 | Class | Move Speed | Attack Range | Description | |
 |------|------|------|------|------|
-|Zombie|5|1| Braaainsss...| |
+|Zombie|5|1| Braaainsss...|![mm29zombie](https://github.com/MechMania-29/Wiki/assets/60795673/db7810b5-e7c0-414f-873a-af7ee85af87a)
+ |
 
 
 # Obstacles
@@ -87,10 +93,10 @@ Throughout the landscape there will be different types of obstacles that cannot 
 
 | Type | Durability| Blocks human attacks? | Description | |
 |------|------|------|------|------|
-|Wall|3|Y|Luckily it’s actually just drywall, unfortunately it’s just drywall.| |
-|Barricade|1|N|Something is written next to it... DON’T DEAD OPEN INSIDE…?| |
-|Tree|2|Y|A nice oak tree, don’t punch it.| |
-|Water|Infinity|N| Zombie Piranhas. | |
+|Wall|3|Y|Luckily it’s actually just drywall, unfortunately it’s just drywall.| ![mm29wall](https://github.com/MechMania-29/Wiki/assets/60795673/de82d2d7-7e78-48f7-b22d-2bab5b3fcbde)|
+|Barricade|1|N|Something is written next to it... DON’T DEAD OPEN INSIDE…?|![mm29barricade](https://github.com/MechMania-29/Wiki/assets/60795673/b0c21d88-856e-4443-80e7-db3d58debd37)|
+|Tree|2|Y|A nice oak tree, don’t punch it.|![mm29tree](https://github.com/MechMania-29/Wiki/assets/60795673/b49ed5ea-ff1b-4021-a947-281a3c6c0195)|
+|Water|Infinity|N| Zombie Piranhas. | ![mm29river](https://github.com/MechMania-29/Wiki/assets/60795673/fe0cc3e8-838c-4b87-95e2-049ef69499a5)|
 
 
 
