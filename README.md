@@ -19,6 +19,7 @@ Please be advised: There has been a large spike in recorded cases recently, repo
     - [Zombies](#zombies)
 - [Obstacles](#obstacles)
 - [Further Questions](#further-questions)
+- [Disclaimer](#disclaimer)
 
 # Overview and Objectives
 Infection is a 1v1 Apocalyptic survival game where you hunt or be hunted. One player will control all the humans, trying to evade the zombies and survive for as long as possible. The other will control all the zombies, pursuing, attacking, and infecting the remaining humans. Stay alert, the horde cannot be stopped.
@@ -117,3 +118,6 @@ Throughout the landscape there will be different types of obstacles that cannot 
 
 # Further questions
 If you need something clarified, don't hesitate to ask! You can contact staff in the [MechMania 29 Discord Server](https://discord.gg/Fz2zEM4nGf) through the #ask-a-question-here channel. We'll be providing help throughout the commpetition!
+
+# Disclaimer
+In an unlikely event, we may make adjustments to the game in the interest of keeping the game fair, balanced, and diverse in gameplay. 
