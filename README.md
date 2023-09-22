@@ -29,7 +29,7 @@ The landscape is a 100x100 square grid containing buildings, trees, rivers, and 
 
 <div align="center">
     
-![mm29landscape](https://github.com/MechMania-29/Visualizer/blob/main/diagram.png)
+![mm29landscape](assets/landscape.png)
 > The landscape, humans spawn in the center while zombies near the top
 
 </div>
