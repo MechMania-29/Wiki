@@ -88,7 +88,7 @@ All human distances are calculated with Manhattan Distance
 |Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.|![mm29marksman](https://github.com/MechMania-29/Wiki/assets/60795673/1aaa389e-5ab7-47cb-9bcd-0bcaa2e3bd00)|
 |Traceur|1|4|2|4|(Passive) Can move on top of barricades|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| ![mm29traceur](https://github.com/MechMania-29/Wiki/assets/60795673/fbb8cb64-04bd-402b-a9e8-fb0b5f1958ba)|
 |Medic|2|3|3|6|(Active) Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| ![mm29medic](https://github.com/MechMania-29/Wiki/assets/60795673/cde8ce26-8810-44cb-9738-54c559d077c4)|
-|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human or zombie. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.|![mm29builder](https://github.com/MechMania-29/Wiki/assets/60795673/41e937f3-9ccf-45b5-9b8d-19a5b6fba767)|
+|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human, zombie, or debris. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.|![mm29builder](https://github.com/MechMania-29/Wiki/assets/60795673/41e937f3-9ccf-45b5-9b8d-19a5b6fba767)|
 |Demolitionist|1|3|2|6|(Passive) Attacks on obstacles will destroy it (except rivers, too many piranhas)|A good demolitionist is one that’s still here.| ![mm29demo](https://github.com/MechMania-29/Wiki/assets/60795673/ec3a633b-3d0c-4d10-af93-d0b84fa2d2d7)|
 
 
