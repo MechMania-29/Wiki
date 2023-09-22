@@ -69,7 +69,7 @@ If a human loses all health, they will turn and become a zombie by the next zomb
 
 At the start of the game, **16** humans can have a chosen class, the rest will have the Normal class.
 
-Up to **10** humans can have the same class.
+Up to **5** humans can have the same class.
 
 Humans can attack either an obstacle or a single zombie. Attacking an obstacle removes **1** durability from it. Attacking a zombie will stun it.
 
@@ -85,7 +85,7 @@ All human distances are calculated with Manhattan Distance
 
 |  Class  | Health | Move Speed |Attack Range|Attack cooldown|Ability|Description| |
 |--------|--------|--------|-------|-------|-------|-------|-------|
-|Normal|1|3|4|6|None|Talents truly shine when the world calls for it.|![mm29human](https://github.com/MechMania-29/Wiki/assets/60795673/2bf9a84c-38be-4ca5-9ac7-f68485fd068a)|
+|Normal|1|3|4|8|None|Talents truly shine when the world calls for it.|![mm29human](https://github.com/MechMania-29/Wiki/assets/60795673/2bf9a84c-38be-4ca5-9ac7-f68485fd068a)|
 |Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.|![mm29marksman](https://github.com/MechMania-29/Wiki/assets/60795673/1aaa389e-5ab7-47cb-9bcd-0bcaa2e3bd00)|
 |Traceur|1|4|2|4|(Passive) Can move on top of barricades|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| ![mm29traceur](https://github.com/MechMania-29/Wiki/assets/60795673/fbb8cb64-04bd-402b-a9e8-fb0b5f1958ba)|
 |Medic|2|3|3|6|(Active) Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| ![mm29medic](https://github.com/MechMania-29/Wiki/assets/60795673/cde8ce26-8810-44cb-9738-54c559d077c4)|
