@@ -29,7 +29,7 @@ The landscape is a 100x100 square grid containing buildings, trees, rivers, and 
 
 <div align="center">
     
-![mm29landscape](https://github.com/MechMania-29/Wiki/assets/60795673/b907d418-e454-4038-a56a-df3c349bc488)
+![mm29landscape](https://github.com/MechMania-29/Visualizer/blob/main/diagram.png)
 > The landscape, humans spawn in the center while zombies near the top
 
 </div>
@@ -38,9 +38,9 @@ The landscape is a 100x100 square grid containing buildings, trees, rivers, and 
 The game ends after **200** turns, or after all humans have fallen. Humans earn more points the longer they survive, while zombies earn points the quicker they infect all humans.
 
 ## Scoring:
-Human points = end_turn + (humans_alive * 5)
+Human points = `end_turn + (humans_alive * 5)`
 
-Zombie points = 200 - end_turn + (humans_infected * 5)
+Zombie points = `200 - end_turn + (humans_infected * 5)`
 
 # Humans and Zombies
 In a game, a bot will either control all of the zombies or all of the humans. Each side has unique stats and attributes to take advantage of. 
@@ -85,12 +85,12 @@ All human distances are calculated with Manhattan Distance
 
 |  Class  | Health | Move Speed |Attack Range|Attack cooldown|Ability|Description| |
 |--------|--------|--------|-------|-------|-------|-------|-------|
-|Normal|1|3|4|8|None|Talents truly shine when the world calls for it.|![mm29human](https://github.com/MechMania-29/Wiki/assets/60795673/2bf9a84c-38be-4ca5-9ac7-f68485fd068a)|
-|Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.|![mm29marksman](https://github.com/MechMania-29/Wiki/assets/60795673/1aaa389e-5ab7-47cb-9bcd-0bcaa2e3bd00)|
-|Traceur|1|4|2|4|(Passive) Can move on top of barricades|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| ![mm29traceur](https://github.com/MechMania-29/Wiki/assets/60795673/fbb8cb64-04bd-402b-a9e8-fb0b5f1958ba)|
-|Medic|2|3|3|6|(Active) Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| ![mm29medic](https://github.com/MechMania-29/Wiki/assets/60795673/cde8ce26-8810-44cb-9738-54c559d077c4)|
-|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human, zombie, or debris. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.|![mm29builder](https://github.com/MechMania-29/Wiki/assets/60795673/41e937f3-9ccf-45b5-9b8d-19a5b6fba767)|
-|Demolitionist|1|3|2|6|(Passive) Attacks on obstacles will destroy it (except rivers, too many piranhas)|A good demolitionist is one that’s still here.| ![mm29demo](https://github.com/MechMania-29/Wiki/assets/60795673/ec3a633b-3d0c-4d10-af93-d0b84fa2d2d7)|
+|Normal|1|3|4|8|None|Talents truly shine when the world calls for it.| <img src="assets/normal.png" width="75px" alt="normal"> |
+|Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.| <img src="assets/marksman.png" width="75px" alt="marksman"> |
+|Traceur|1|4|2|4|(Passive) Can move on top of barricades|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| <img src="assets/traceur.png" width="75px" alt="traceur"> |
+|Medic|2|3|3|6|(Active) Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| <img src="assets/medic.png" width="75px" alt="medic"> |
+|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human, zombie, or debris. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.| <img src="assets/builder.png" width="75px" alt="builder"> |
+|Demolitionist|1|3|2|6|(Passive) Attacks on obstacles will destroy it (except rivers, too many piranhas)|A good demolitionist is one that’s still here.| <img src="assets/demolitionist.png" width="75px" alt="demolitionist"> |
 
 
 ## Zombies
@@ -103,7 +103,7 @@ Zombie Attack Range uses Chebyshev distance, while Speed uses Manhattan.
 
 | Class | Move Speed | Attack Range | Description | |
 |------|------|------|------|------|
-|Zombie|5|1| Braaainsss...|![mm29zombie](https://github.com/MechMania-29/Wiki/assets/60795673/db7810b5-e7c0-414f-873a-af7ee85af87a)|
+|Zombie|5|1| Braaainsss...| <img src="assets/zombie.png" width="75px" alt="zombie"> |
 
 
 # Obstacles
@@ -111,10 +111,10 @@ Throughout the landscape there will be different types of obstacles that cannot 
 
 | Type | Durability| Blocks human attacks? | Description | |
 |------|------|------|------|------|
-|Wall|3|Y|Luckily it’s actually just drywall, unfortunately it’s just drywall.| ![mm29wall](https://github.com/MechMania-29/Wiki/assets/60795673/de82d2d7-7e78-48f7-b22d-2bab5b3fcbde)|
-|Barricade|1|N|Something is written next to it... DON’T DEAD OPEN INSIDE…?|![mm29barricade](https://github.com/MechMania-29/Wiki/assets/60795673/b0c21d88-856e-4443-80e7-db3d58debd37)|
-|Tree|2|Y|A nice oak tree, don’t punch it.|![mm29tree](https://github.com/MechMania-29/Wiki/assets/60795673/b49ed5ea-ff1b-4021-a947-281a3c6c0195)|
-|Water|Infinity|N| Zombie Piranhas. | ![mm29river](https://github.com/MechMania-29/Wiki/assets/60795673/fe0cc3e8-838c-4b87-95e2-049ef69499a5)|
+|Wall|3|Y|Luckily it’s actually just drywall, unfortunately it’s just drywall.| <img src="assets/wall.png" width="75px" alt="wall"> |
+|Barricade|1|N|Something is written next to it... DON’T DEAD OPEN INSIDE…?| <img src="assets/barricade.png" width="75px" alt="barricade"> |
+|Tree|2|Y|A nice oak tree, don’t punch it.| <img src="assets/tree.png" width="75px" alt="tree"> |
+|Water|Infinity|N| Zombie Piranhas. | <img src="assets/river.png" width="75px" alt="river"> |
 
 # Further questions
 If you need something clarified, don't hesitate to ask! You can contact staff in the [MechMania 29 Discord Server](https://discord.gg/Fz2zEM4nGf) through the #ask-a-question-here channel. We'll be providing help throughout the commpetition!
