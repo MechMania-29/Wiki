@@ -26,6 +26,13 @@ Infection is a 1v1 Apocalyptic survival game where you hunt or be hunted. One pl
 ## Map
 The landscape is a 100x100 square grid containing buildings, trees, rivers, and many obstacles. Some of these obstacles can be destroyed to create a new path. The coordinates of the top left is (0,0) while the bottom right is (99,99). Every game will have the same map.
 
+<div align="center">
+    
+![mm29landscape](https://github.com/MechMania-29/Wiki/assets/60795673/b907d418-e454-4038-a56a-df3c349bc488)
+> The landscape, humans spawn in the center while zombies near the top
+
+</div>
+
 ## Endgame
 The game ends after **200** turns, or after all humans have fallen. Humans earn more points the longer they survive, while zombies earn points the quicker they infect all humans.
 
