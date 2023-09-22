@@ -52,7 +52,7 @@ Zombies will have their turn first, then humans second. A single turn is made up
 #### 2. Attack
 - Choose any zombie or obstacle within range to attack, stunning it or decreasing durability by **1** respectively.
 #### 3. Ability
-- Use any available ability the human possesses.
+- Use any available active ability the human possesses.
 
 
 ## Humans:
