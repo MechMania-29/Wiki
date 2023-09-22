@@ -83,7 +83,7 @@ Humans can attack either an obstacle or a single zombie. Attacking an obstacle r
 All human distances are calculated with Manhattan Distance
 - D<sub>Manhattan</sub> = |x<sub>2</sub> - x<sub>1</sub>| + |y<sub>2</sub> - y<sub>1</sub>|
 
-|  Class  | Health | Move Speed |Attack Range|Attack cooldown|Ability|Description| |
+|  Class  | Health | Move Speed |Attack Range|Attack cooldown|Ability|Description| Image |
 |--------|--------|--------|-------|-------|-------|-------|-------|
 |Normal|1|3|4|8|None|Talents truly shine when the world calls for it.| <img src="assets/normal.png" width="75px" alt="normal"> |
 |Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.| <img src="assets/marksman.png" width="75px" alt="marksman"> |
@@ -101,7 +101,7 @@ When a zombie is attacked, they will not die, but instead be stunned for **1** t
 Zombie Attack Range uses Chebyshev distance, while Speed uses Manhattan.
 - D<sub>Chebyshev</sub> = max( |x<sub>2</sub> - x<sub>1</sub>|, |y<sub>2</sub> - y<sub>1</sub>| )
 
-| Class | Move Speed | Attack Range | Description | |
+| Class | Move Speed | Attack Range | Description | Image |
 |------|------|------|------|------|
 |Zombie|5|1| Braaainsss...| <img src="assets/zombie.png" width="75px" alt="zombie"> |
 
@@ -109,7 +109,7 @@ Zombie Attack Range uses Chebyshev distance, while Speed uses Manhattan.
 # Obstacles
 Throughout the landscape there will be different types of obstacles that cannot be passed. They must be destroyed or another path must be taken to bypass objects. When any obstacle is destroyed, its debris is left behind, allowing humans and zombies to pass, but preventing building new obstacles on top. All obstacles block zombie attacks (due to their range), but some do not block human attacks. 
 
-| Type | Durability| Blocks human attacks? | Description | |
+| Type | Durability| Blocks human attacks? | Description | Image |
 |------|------|------|------|------|
 |Wall|3|Y|Luckily it’s actually just drywall, unfortunately it’s just drywall.| <img src="assets/wall.png" width="75px" alt="wall"> |
 |Barricade|1|N|Something is written next to it... DON’T DEAD OPEN INSIDE…?| <img src="assets/barricade.png" width="75px" alt="barricade"> |
