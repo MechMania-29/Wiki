@@ -89,7 +89,7 @@ All human distances are calculated with Manhattan Distance
 |Marksman|1|3|6|6|None|Hunting scopes are more effective when used properly, like when it isn’t on a sword.| <img src="assets/marksman.png" width="75px" alt="marksman"> |
 |Traceur|1|4|2|4|(Passive) Can move on top of barricades|Isn’t parkour the greatest skill to have in a post-apocalyptic world?| <img src="assets/traceur.png" width="75px" alt="traceur"> |
 |Medic|2|3|3|6|(Active) Give another human within attack range +1 health. Cooldown **6** turns|The place to save lives is in the field, not an office.| <img src="assets/medic.png" width="75px" alt="medic"> |
-|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human, zombie, or debris. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.| <img src="assets/builder.png" width="75px" alt="builder"> |
+|Builder|1|3|4|6|(Active) Place a barricade within attack range, cannot place on top of a human, zombie, obstacle, or debris. Cooldown **6** turns|You can quickly make a barricade with some duct tape, wood, string, and a barricade.| <img src="assets/builder.png" width="75px" alt="builder"> |
 |Demolitionist|1|3|2|6|(Passive) Attacks on obstacles will destroy it (except rivers, too many piranhas)|A good demolitionist is one that’s still here.| <img src="assets/demolitionist.png" width="75px" alt="demolitionist"> |
 
 
