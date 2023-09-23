@@ -94,7 +94,7 @@ All human distances are calculated with Manhattan Distance
 
 
 ## Zombies
-The game begins with **6** zombies. When a human falls, they will become a zombie and join the ever growing horde.
+The game begins with **5** zombies. When a human falls, they will become a zombie and join the ever growing horde.
 Zombies have no attack cooldown, but still can only attack once per turn.
 When a zombie is attacked, they will not die, but instead be stunned for **1** turn. While a zombie is stunned, no actions can be performed by that zombie.
 
